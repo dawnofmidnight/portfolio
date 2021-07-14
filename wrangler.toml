@@ -1,0 +1,11 @@
+name = "portfolio"
+type = 'webpack'
+account_id = 'b5ddf6c30816fa7e0fe47ba4276a7d0b'
+routes = ["dawnofmidnight.tech/*"]
+zone_id = 'c74c34a9e6842c7cd45872edeb0ed439'
+workers_dev = true
+target_type = "webpack"
+
+[site]
+bucket = "dist"
+entry-point = "workers-site"
